@@ -34,5 +34,7 @@ if __name__ == '__main__':
     my_model = []
     for i in model.parameters():
         my_model.append(i.detach().numpy())
-    print(my_model[0])
+    print(my_model[2].shape)
+    print(my_model[3].shape)
+
     
